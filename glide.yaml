@@ -1,0 +1,5 @@
+package: github.com/openctx/openctx-go
+import:
+- package: golang.org/x/net
+  subpackages:
+  - /context
