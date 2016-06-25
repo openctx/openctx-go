@@ -137,6 +137,7 @@ func TestJoinReceipts(t *testing.T) {
 	assert.Equal(t, "a, b", joinReceipts("a", "b"))
 	assert.Equal(t, "a, b, c, d", joinReceipts("a, c", "b, d"))
 }
+
 func TestWithReceipt(t *testing.T) {
 	ctx := context.Background()
 	ctx = WithReceipt(ctx, "alice")
